@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="311.0" prefWidth="599.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+   <children>
+      <TextField fx:id="username" layoutX="200.0" layoutY="102.0" prefHeight="25.0" prefWidth="199.0" promptText="Username" />
+      <PasswordField fx:id="password" layoutX="200.0" layoutY="156.0" prefHeight="25.0" prefWidth="199.0" promptText="Password" />
+      <JFXButton fx:id="signupbtn" layoutX="328.0" layoutY="219.0" prefHeight="35.0" prefWidth="63.0" style="-fx-background-color: #0f9d58;" text="Sign up" />
+      <JFXButton fx:id="loginbtn" layoutX="200.0" layoutY="219.0" prefHeight="35.0" prefWidth="63.0" style="-fx-background-color: #0f9d58;" text="Log in" />
+   </children>
+</AnchorPane>
