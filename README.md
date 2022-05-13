@@ -1,18 +1,31 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# JavaFX Based Login System
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 👉 Requirements
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- JDK - 17.0.2
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- JavaFX SDK - 17.0.2
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- mysql-connector-java-8.0.29
 
-## Dependency Management
+## vmArgs Setup
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```
+----module-path \"C:\\Program Files\\Java\\javafx-sdk-17.0.2\\lib\" --add-modules javafx.controls,javafx.fxml
+
+```
+
+👉 Sample screenshots taken
+
+<img src="screenshot/photo_2022-05-13_08-37-48.jpg" alt="Login - Screen" width="400"/><br>
+
+<img src="screenshot/photo_2022-05-13_08-38-33.jpg" alt="Search - Screen" width="400"/><br>
+
+<img src="screenshot/photo_2022-05-13_08-38-39.jpg" alt="Sign up - Screen" width="400"/><br>
+
+​
+
+
