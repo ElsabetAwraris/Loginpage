@@ -14,7 +14,7 @@
 ## vmArgs Setup
 
 ```
-----module-path \"E:\\Application\\Java Material\\javafx-sdk-17.0.2\\lib\" --add-modules javafx.controls,javafx.fxml
+----module-path \"C:\\Program Files\\Java\\javafx-sdk-17.0.2\\lib\" --add-modules javafx.controls,javafx.fxml
 
 ```
 
